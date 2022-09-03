@@ -50,7 +50,7 @@ function App() {
       [2, 4, 6],
     ];
     for (let i = 0; i < lines.length; i++) {
-      const [a, b, c,d,e] = lines[i];
+      const [a, b, c] = lines[i];
       if (
         gameState[a] &&
         gameState[a] === gameState[b] &&
